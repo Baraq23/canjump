@@ -1,11 +1,14 @@
 ## canjump
+This program determines if it's possible to reach and stay at the last index of the array
+starting from the first index, based on the steps you need to advance. Each value of the 
+slice represents the exact number of steps you must take forward from that position.
 
 
 ## How the program works
 For example; if the program is given the
 unsigned integer slice:
  []uint{2, 3, 1, 1, 4}
- 
+
 then:
 Position: 0  1  2  3  4
 Steps:    2  3  1  1  4
@@ -28,3 +31,7 @@ Steps:    2  3  1  1  4
 Position: 0  1  2  3  4
 Steps:    2  3  1  1  4
                       ^
+
+
+## Author
+- [Barrack Kope Otieno](https://www.linkedin.com/in/barrack-kope-otieno-064a43244)
